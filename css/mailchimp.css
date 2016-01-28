@@ -1,9 +1,5 @@
 /* Customised version */
-
-
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
-
-
 /* http://cdn-images.mailchimp.com/embedcode/classic-081711.css */
 
 #mc_embed_signup {
@@ -13,7 +9,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 #mc_embed_signup div {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 #mc_embed_signup form {
     display: block;
