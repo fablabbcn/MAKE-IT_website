@@ -134,12 +134,11 @@
 }
 #mc_embed_signup div.response {
     margin: 1em 0;
-    padding: 1em .5em .5em 0;
     font-weight: bold;
     float: left;
     top: -1.5em;
     z-index: 1;
-    width: 80%;
+    width: 100%;
 }
 #mc_embed_signup #mce-error-response {
     display: none;
