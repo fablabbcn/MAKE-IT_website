@@ -33,6 +33,39 @@
 	<link rel="index" title="MAKE-IT Research project" href="" />
 	<link rel="stylesheet" href="css/mailchimp.css" type="text/css" media="screen" />
 
+	<style>
+		/* ---- reset ---- */
+
+		canvas {
+			display: block;
+			vertical-align: bottom;
+		}
+		/* ---- particles.js container ---- */
+
+		#particles-js {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: #ffffff;
+			z-index: -2;
+		}
+
+		.container h1,
+		h2 {
+			background-color: rgba(238, 170, 86, 0.2);
+			border: 1px solid #EEAA56;
+			padding: 5px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+		}
+
+		.container p {
+			background-color: rgba(255, 255, 255, 0.6);
+			padding: 5px;
+		}
+	</style>
+
 	<!--[if lt IE 9 ]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -40,6 +73,12 @@
 </head>
 
 <body class="" lang="en-US">
+
+	<!-- particles.js container -->
+	<div id="particles-js"></div>
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="js/particle.js"></script>
 
 	<header id="primary-header">
 
@@ -200,9 +239,9 @@
 		<div class="small">
 			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 				<img class="img-responsive center-block" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
-				<br />
-				<p class="text-center">Except where specified in a different way, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a>
-				</p>
+			<br />
+			<p class="text-center">Except where specified in a different way, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a>
+			</p>
 			</a>
 		</div>
 	</footer>
