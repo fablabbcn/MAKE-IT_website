@@ -59,13 +59,20 @@
 
 		.container h1,
 		h2 {
-			background-color: rgba(238, 170, 86, 0.4);
-			border-bottom: 3px solid #EEAA56;
 			padding: 5px;
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			border-radius: 4px;
+		}
 
+		.container h1 {
+			background-color: rgba(241, 100, 86, 0.4);
+			border-bottom: 3px solid #F16456;
+		}
+
+		.container h2 {
+			background-color: rgba(238, 170, 86, 0.4);
+			border-bottom: 3px solid #EEAA56;
 		}
 
 		.container p {
@@ -80,6 +87,30 @@
 			-moz-border-radius: 10px;
 			border-radius: 10px;
 		}
+
+		section {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		strong {
+			border-bottom: 2px solid #7DB478;
+		}
+
+		a {
+			color: #3E6684;
+			border-bottom: 1px dashed #3E6684 !important;
+			text-decoration: none !important;
+			background: none;
+		}
+
+		a:hover {
+			color: #3E6684;
+			border-bottom: 1px solid #3E6684 !important;
+			text-decoration: none !important;
+			background-color: rgba(62, 102, 133, 0.05);
+		}
+
 	</style>
 
 	<!--[if lt IE 9 ]>
@@ -96,31 +127,18 @@
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="js/particle.js"></script>
 
-	<header id="primary-header">
-
-		<!--
-		<nav id="primary-navigation">
-			<ul>
-				<li>
-					<a href="" title=""></a>
-				</li>
-			</ul>
-		</nav>
-		-->
-
-
-	</header>
-
 	<div class="container">
 
 		<img class="img-responsive center-block" style="margin-top: 70px; margin-bottom:70px;" src="images/logo_primary_100_RGB.png">
 
-		<h1>MAKE-IT</h1>
-		<h2>Understanding Collective Awareness Platforms with the Maker Movement</h2>
+		<h1>MAKE-IT<span class="badge">v0.1</span></h1>
+		<h1>Understanding Collective Awareness Platforms with the Maker Movement</h1>
+
 		<section id="content">
+			<h2>The concept</h2>
 			<p>
-				The overall objective of the MAKE-IT project is to understand the role of Collective Awareness Platforms (CAPs) in how the maker movement has grown and operates, particularly in relation to using and creating social innovations and achieving sustainability.
-				These findings will be translated into a wider understanding of the uses and impacts both of CAPs in different contexts as well as of the maker movement itself.
+				The overall objective of the <strong>MAKE-IT</strong> project is to understand the role of Collective Awareness Platforms (CAPs) in how the maker movement has grown and operates, particularly in relation to using and creating social innovations and
+				achieving sustainability. These findings will be translated into a wider understanding of the uses and impacts both of CAPs in different contexts as well as of the maker movement itself.
 			</p>
 			<p>
 				MAKE-IT will undertake multidisciplinary research (behavioural studies, social psychology, sociology, management information systems, economics, plus environmental, technological and governance issues) into the role and impact of CAPs approaches on the
@@ -131,25 +149,15 @@
 			</p>
 		</section>
 
-		<h2>H2020 - CAPs</h2>
+
 		<section>
+			<h2>H2020 - CAPs</h2>
 			<p>
-				More info soon.. http://caps2020.eu/
+				More info soon.. <a href="http://caps2020.eu/">http://caps2020.eu/</a>
 			</p>
 		</section>
 
-		<h2>Contact us</h2>
 		<section>
-
-			<p>
-				The website is under development and a new version will be online soon. Meanwhile, you can write us at this e-mail address:
-			</p>
-			<p>
-				<a href="mailto:info@make-it.io">
-					<button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@make-it.io</button>
-				</a>
-			</p>
-
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
 				<form action="http://make-it.us12.list-manage.com/subscribe/post?u=761a9ea89124df321552f8d5d&amp;id=6d20be6238" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -226,21 +234,34 @@
 
 		</section>
 
-		<h2>Who's involved in the project?</h2>
+
 		<section>
+			<h2>Who's involved in the project?</h2>
+			<p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="https://www.tno.nl/en/">Nederlandse Organisatie voor Toegepast Natuurwetenschappelijk Onderzoek</a> (TNO) - Netherlands</li>
+					<li class="list-group-item"><a href="http://www.dti.dk/">Teknologisk Institut</a> (DTI) - Denmark</li>
+					<li class="list-group-item"><a href="https://www.zsi.at/en/home">Zentrum für Soziale Innovation</a> (ZSI) - Austria</li>
+					<li class="list-group-item"><a href="http://www.tu-dortmund.de/uni/International/">Technische Universität Dortmund</a> (TUDO) - Germany</li>
+					<li class="list-group-item"><a href="http://iaac.net/">The Institute for Advanced Architecture of Catalonia (IAAC)</a> | <a href="http://fablabbcn.org/">Fab Lab Barcelona</a> - Spain</li>
+					<li class="list-group-item"><a href="http://www.fablab.hr/">Fab Lab Zagreb</a> (FLZ) - Croatia</li>
+					<li class="list-group-item"><a href="http://www.happylab.at/">Happylab GmbH</a> (HLW) - Austria</li>
+					<li class="list-group-item"><a href="http://www.ahhaa.ee/">Sihtasutus Teaduskeskus AHHAA</a> (AHHAA) - Estonia</li>
+					<li class="list-group-item"><a href="http://www.createitreal.com/">Create it REAL ApS</a> (CIR) - Denmark</li>
+				</ul>
+			</p>
+		</section>
 
-			<ul class="list-group">
-				<li class="list-group-item"><a href="https://www.tno.nl/en/">Nederlandse Organisatie voor Toegepast Natuurwetenschappelijk Onderzoek</a> (TNO) - Netherlands</li>
-				<li class="list-group-item"><a href="http://www.dti.dk/">Teknologisk Institut</a> (DTI) - Denmark</li>
-				<li class="list-group-item"><a href="https://www.zsi.at/en/home">Zentrum für Soziale Innovation</a> (ZSI) - Austria</li>
-				<li class="list-group-item"><a href="http://www.tu-dortmund.de/uni/International/">Technische Universität Dortmund</a> (TUDO) - Germany</li>
-				<li class="list-group-item"><a href="http://iaac.net/">The Institute for Advanced Architecture of Catalonia (IAAC)</a> | <a href="http://fablabbcn.org/">Fab Lab Barcelona</a> - Spain</li>
-				<li class="list-group-item"><a href="http://www.fablab.hr/">Fab Lab Zagreb</a> (FLZ) - Croatia</li>
-				<li class="list-group-item"><a href="http://www.happylab.at/">Happylab GmbH</a> (HLW) - Austria</li>
-				<li class="list-group-item"><a href="http://www.ahhaa.ee/">Sihtasutus Teaduskeskus AHHAA</a> (AHHAA) - Estonia</li>
-				<li class="list-group-item"><a href="http://www.createitreal.com/">Create it REAL ApS</a> (CIR) - Denmark</li>
-			</ul>
-
+		<section>
+			<h2>Contact us</h2>
+			<p>
+				The website is under development and a new version will be online soon. Meanwhile, you can write us at this e-mail address:
+			</p>
+			<p>
+				<a href="mailto:info@make-it.io">
+					<button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@make-it.io</button>
+				</a>
+			</p>
 		</section>
 
 	</div>
