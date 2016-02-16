@@ -4,8 +4,8 @@
 
 #mc_embed_signup {
   clear: left;
-  padding-left: 0px !important;
-  margin-left: 0px !important;
+  padding-left: 4%;
+  padding-right: 0%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 #mc_embed_signup label {
@@ -51,10 +51,10 @@
   float: left;
   display: inline-block;
   width: 46%;
-  margin-right: 4%;
 }
 * html #mc_embed_signup .size1of2 {
   margin-right: 2%;
+  margin-left: 2%;
   /* Fix for IE6 double margins. */
 }
 #mc_embed_signup .mc-field-group label {
@@ -96,7 +96,6 @@
 #mc_embed_signup .indicates-required {
   text-align: right;
   font-size: 11px;
-  margin-right: 4%;
 }
 #mc_embed_signup .asterisk {
   color: #c60;
@@ -163,7 +162,5 @@
   font-size: 1.1em;
 }
 #mc_embed_signup #num-subscribers span {
-  padding: .5em;
   border: 1px solid #ccc;
-  margin-right: .5em;
 }
