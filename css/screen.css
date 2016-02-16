@@ -5,7 +5,8 @@ h1 {
   font-weight: 700;
 }
 footer {
-  padding: 100px;
+  padding: 50px;
+  font-size: 0.8em !important;
 }
 h2 {
   font-weight: 600;
@@ -31,7 +32,4 @@ hr {
 }
 .small {
   font-size: 16px !important;
-}
-footer {
-  font-size: 12px !important;
 }
