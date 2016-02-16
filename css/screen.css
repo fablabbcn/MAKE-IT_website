@@ -30,6 +30,6 @@ h2 {
 hr {
   margin: 50px;
 }
-.small {
+.container .small {
   font-size: 16px !important;
 }
