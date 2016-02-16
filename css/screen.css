@@ -1,15 +1,9 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
-h1 {
-  font-weight: 700;
-}
 footer {
   padding: 50px;
   font-size: 0.8em !important;
-}
-h2 {
-  font-weight: 600;
 }
 .container p {
   margin-top: 20px;
@@ -60,10 +54,12 @@ canvas {
 .container h1 {
   background-color: rgba(241, 100, 86, 0.4);
   border-bottom: 3px solid #F16456;
+  font-weight: 700;
 }
 .container h2 {
   background-color: rgba(238, 170, 86, 0.4);
   border-bottom: 3px solid #EEAA56;
+  font-weight: 600;
 }
 .container p {
   background-color: rgba(255, 255, 255, 0.6);
