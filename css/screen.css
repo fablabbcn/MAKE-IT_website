@@ -33,3 +33,67 @@ hr {
 .container .small {
   font-size: 16px !important;
 }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  z-index: -2;
+  /*
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+  */
+}
+.container h1, h2 {
+  padding: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.container h1 {
+  background-color: rgba(241, 100, 86, 0.4);
+  border-bottom: 3px solid #F16456;
+}
+.container h2 {
+  background-color: rgba(238, 170, 86, 0.4);
+  border-bottom: 3px solid #EEAA56;
+}
+.container p {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+}
+.container img {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+section {
+  margin-top: 70px;
+}
+strong {
+  border-bottom: 2px solid #7DB478;
+}
+em {
+  background-color: rgba(125, 180, 120, 0.1) !important;
+}
+a {
+  color: #3E6684;
+  border-bottom: 1px dashed #3E6684 !important;
+  text-decoration: none !important;
+  background: none;
+}
+a:hover {
+  color: #3E6684;
+  border-bottom: 1px solid #3E6684 !important;
+  text-decoration: none !important;
+  background-color: rgba(62, 102, 133, 0.1);
+}
