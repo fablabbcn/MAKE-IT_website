@@ -8,7 +8,7 @@ particlesJS("particles-js", {
             }
         },
         "color": {
-            "value": "#bebebe"
+            "value": ["#7DB478", "#EEAA56", "#F16456", "#3E6684"]
         },
         "shape": {
             "type": ["circle", "triangle", "polygon", "edge"],
@@ -26,12 +26,12 @@ particlesJS("particles-js", {
             }
         },
         "opacity": {
-            "value": 0.5,
+            "value": 0.4,
             "random": false,
             "anim": {
                 "enable": false,
                 "speed": 1,
-                "opacity_min": 0.1,
+                "opacity_min": 0,
                 "sync": false
             }
         },
