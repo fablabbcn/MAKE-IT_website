@@ -71,7 +71,7 @@ particlesJS("particles-js", {
         "detect_on": "window",
         "events": {
             "onhover": {
-                "enable": false,
+                "enable": true,
                 "mode": "bubble"
             },
             "onresize": {
@@ -94,7 +94,7 @@ particlesJS("particles-js", {
             },
             "bubble": {
                 "distance": 400,
-                "size": 11.988011988011989,
+                "size": 7,
                 "duration": 2.4775224775224776,
                 "opacity": 0.4075924075924076,
                 "speed": 3
