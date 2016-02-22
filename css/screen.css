@@ -21,6 +21,7 @@ header img {
 .container p {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 120%;
 }
 .mk-color01 {
     color: #7DB478;
