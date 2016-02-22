@@ -22,6 +22,7 @@ header h1 {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
+    width: 55%;
 }
 .container {
     padding: 30px;
@@ -30,7 +31,6 @@ header h1 {
 .container p {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 120%;
 }
 .mk-color01 {
     color: #7DB478;
@@ -71,6 +71,7 @@ canvas {
 }
 .container p, .container {
     padding: 5px;
+    font-size: 120%;
 }
 .container img {
     padding: 15px;
