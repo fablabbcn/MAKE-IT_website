@@ -15,6 +15,8 @@ header img {
 }
 .container {
     border-top: 0px solid #3E6684;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .container p {
     margin-top: 20px;
@@ -102,12 +104,10 @@ canvas {
     margin-bottom: 40px;
 }
 .container p, .container {
-    background-color: rgba(255, 255, 255, 0.6);
     padding: 30px;
     font-size: 120%;
 }
 .container img {
-    background-color: rgba(255, 255, 255, 0.6);
     padding: 15px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

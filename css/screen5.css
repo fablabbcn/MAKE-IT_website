@@ -15,6 +15,7 @@ header img {
 }
 .container {
     padding: 30px;
+    width: 35%;
 }
 .container p {
     margin-top: 20px;
