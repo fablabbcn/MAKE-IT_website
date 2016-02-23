@@ -17,24 +17,26 @@ header img {
 }
 header h1 {
     font-family: "Rubik", sans-serif;
-    ;
     font-weight: 400;
     font-size: 120%;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
-    width: 40%;
+    width: 30%;
 }
 .container {
-    width: 40%;
+    width: 30%;
     background-color: rgba(255, 255, 255, 0.9);
 }
 .container ul, .container ol {
     margin-left: 30px;
 }
 .container p {
-    margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    text-align: justify;
 }
 .mk-color01 {
     color: #7DB478;
@@ -115,11 +117,6 @@ canvas {
     font-weight: 600;
     margin: 30px;
     text-align: center;
-}
-.container p {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 20px;
 }
 .container p, .container ul, .container ol, .container table {
     font-size: 120%;
