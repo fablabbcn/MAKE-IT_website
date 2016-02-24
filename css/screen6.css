@@ -183,3 +183,16 @@ a:hover {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
+.stakeholders-list {
+    list-style-type: none;
+}
+.stakeholders-list li {
+    position: relative;
+    left: -20px;
+}
+.stakeholders-list img {
+    margin: 0px;
+    padding: 6px;
+}
+.container ol, .container ul {
+}
