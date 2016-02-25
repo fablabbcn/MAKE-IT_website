@@ -4,14 +4,14 @@ body {
 }
 footer {
     padding: 50px;
-    font-size: 90% !important;
+    font-size: 90%;
 }
 header {
     width: 100%;
 }
 header img {
     margin-top: 150px !important;
-    margin-bottom: 60px !important;
+    margin-bottom: 60px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
 }
@@ -59,9 +59,6 @@ header h1 {
 hr {
     margin: 50px;
 }
-.container-fluid .small {
-    font-size: 16px !important;
-}
 canvas {
     display: block;
     vertical-align: bottom;
@@ -81,7 +78,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
-    /*
+    /* Blur
   -webkit-filter: blur(1px);
   -moz-filter: blur(1px);
   -o-filter: blur(1px);
@@ -109,16 +106,16 @@ canvas {
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     font-family: "Rubik", sans-serif;
+    margin: 30px;
+    text-align: center;
 }
 .container-fluid h1 {
-    font-weight: 400;
-    margin: 30px;
+    font-weight: 500;
+    margin: 30px auto 30px auto;
     text-align: center;
 }
 .container-fluid h2 {
-    font-weight: 500;
-    margin: 30px;
-    text-align: center;
+    font-weight: 400;
 }
 .container-fluid p, .container-fluid ul, .container-fluid ol, .container-fluid table {
     font-size: 120%;
@@ -140,21 +137,39 @@ em {
 }
 a {
     color: #3E6684;
-    border-bottom: 2px dashed #3E6684 !important;
-    text-decoration: none !important;
+    border-bottom: 2px dashed #3E6684;
+    text-decoration: none;
     background-color: rgba(62, 102, 133, 0.1);
+    padding-left: 3px;
+    padding-right: 3px;
 }
 a:hover {
-    color: #3E6684;
-    border-bottom: 1px solid #3E6684 !important;
-    text-decoration: none !important;
-    background-color: rgba(62, 102, 133, 0.3);
+    color: #fff;
+    border-bottom: 2px solid #3E6684;
+    text-decoration: none;
+    background-color: rgba(62, 102, 133, 0.5);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+a img {
+	text-decoration: none;
+	border: 0 none;
+    padding: 0px;
+	}
+/* Fix image link problem in footer */
+.footer-images a {
+    padding: 0px !important;
 }
 .rounded-separator-top {
     color: #EEAA56;
     background-color: #EEAA56;
     height: 10px;
     border-radius: 5px;
+}
+footer div {
+    margin-top: 70px;
 }
 .rounded-separator-bottom {
     color: #EEAA56;
@@ -178,7 +193,7 @@ a:hover {
     margin: 5px;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
-    border: 0px solid #fff !important;
+    border: 0px solid #fff;
 }
 .socialmedia a:hover {
     color: #fff;
