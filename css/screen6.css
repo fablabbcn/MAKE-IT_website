@@ -266,3 +266,51 @@ footer div {
         margin-bottom: 30px;
     }
 }
+.form-group {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.form-control {
+    margin-bottom: 20px;
+}
+.form-group .required {
+  border: 1px solid #EEAA56 !important;
+}
+.asterisk {
+    color: #F16456;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.asterisk, .mce_inline_error {
+    color: #F16456;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.form-group .input-group label {
+  border: 1px solid red !important;
+  font-weight: 500;
+  font-size: 90%;
+  margin: 0px auto !important;
+}
+.form-group label, .radio label {
+  font-weight: 600;
+}
+.radio-mkit label {
+  font-weight: 600;
+}
+.radio-mkit ul {
+  list-style-type: none;
+   margin: 0px auto;
+   margin-bottom: 20px;
+   padding: 0px auto !important;
+   list-style-position: inside;
+    padding-left:0;
+}
+.radio-mkit ul li {
+    font-size: 80%;
+}
+.radio-mkit input {
+    margin-right: 10px;
+}
