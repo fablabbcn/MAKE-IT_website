@@ -15,6 +15,10 @@ header img {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
 }
+.header-logo {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 header h1 {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
@@ -149,11 +153,13 @@ a:hover {
     padding-right: 3px;
 }
 a img {
-	text-decoration: none;
-	border: 0 none;
+    text-decoration: none;
+    border: 0 none;
     padding: 0px;
-	}
+}
+
 /* Fix image link problem in footer */
+
 .footer-images a {
     padding: 0px !important;
 }
@@ -218,4 +224,39 @@ footer div {
     height: 6px;
     border-radius: 3px;
     margin-bottom: 60px;
+}
+
+/* iPhone fix */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .header-logo {
+        max-width: 70%;
+        margin-bottom: 50px !important;
+        margin-top: 50px !important;
+    }
+    .container-fluid {
+        min-width: 80%;
+        font-size: 80%;
+    }
+    .container-fluid p {
+        text-align: left !important;
+    }
+    .container-fluid ol, .container-fluid ul {
+        margin: 15px !important;
+    }
+    .socialmedia a {
+        margin: 0px auto !important;
+    }
+    section {
+        margin-top: 50px !important;
+        margin-bottom: 30px !important;
+    }
+    header h1 {
+        margin: 0px auto !important;
+        min-width: 70%;
+        font-size: 80% !important;
+    }
+    .container-fluid h1, .container-fluid h2 {
+        font-size: 120% !important;
+    }
 }
