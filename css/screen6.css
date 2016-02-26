@@ -182,6 +182,9 @@ footer div {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
     border: 0px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
 }
 .socialmedia a:hover {
     color: #fff;
@@ -245,7 +248,7 @@ footer div {
         margin: 15px !important;
     }
     .socialmedia a {
-        margin: 0px auto !important;
+        margin: 4px auto !important;
     }
     section {
         margin-top: 50px !important;
