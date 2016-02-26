@@ -259,4 +259,10 @@ footer div {
     .container-fluid h1, .container-fluid h2 {
         font-size: 120% !important;
     }
+    .rounded-separator-h1-bottom {
+        margin-bottom: 50px;
+    }
+    .rounded-separator-h2-bottom {
+        margin-bottom: 30px;
+    }
 }
