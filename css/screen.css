@@ -307,6 +307,7 @@ footer div {
   list-style-type: none;
    margin: 0px auto;
    margin-bottom: 20px;
+   margin-top: 20px;
    padding: 0px auto !important;
    list-style-position: inside;
     padding-left:0;
@@ -316,4 +317,11 @@ footer div {
 }
 .radio-mkit input {
     margin-right: 10px;
+}
+.radio-required {
+    padding: 3px;
+    border: 1px solid #EEAA56 !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
 }
