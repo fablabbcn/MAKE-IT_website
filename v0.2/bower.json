@@ -1,0 +1,22 @@
+{
+  "name": "MAKE-IT.io",
+  "homepage": "https://github.com/fablabbcn/MAKE-IT_website",
+  "authors": [
+    "Massimo Menichinelli <info@openp2pdesign.org>"
+  ],
+  "description": "The website of the MAKE-IT.io Horizon 2020 project.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "research"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
