@@ -18,5 +18,14 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "particles.js": "^2.0.0",
+    "cookieconsent2": "^1.0.10",
+    "leaflet": "^0.7.7",
+    "leaflet-providers": "^1.1.7",
+    "tabletop": "^1.4.3"
+  }
 }

@@ -332,3 +332,32 @@ footer div {
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #f8f3c7;
 }
+
+/* Map */
+
+#map {
+    /* background-color: #08304a; */
+    position: absolute;
+    float: left;
+    top: 1%;
+    height: 98%;
+    width: 100%;
+    z-index: 7;
+}
+
+/* Leaflet controls */
+
+.leaflet-control-zoom a, .leaflet-control-zoom a:hover {
+    text-decoration: none;
+}
+.leaflet-top {
+    z-index: 8;
+}
+.leaflet-right {
+    left: 0;
+    right: 100;
+}
+.leaflet-bottom {
+    pointer-events: none;
+    z-index: 8;
+}
