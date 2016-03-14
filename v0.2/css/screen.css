@@ -324,3 +324,11 @@ footer div {
     -moz-border-radius: 5px;
     border-radius: 5px
 }
+.navbar, #navbar, .dropdown-menu, .dropdown, .dropdown-toggle {
+    background-color: #fadf06;
+    color: #000;
+    font-weight: 500 !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #f8f3c7;
+}
