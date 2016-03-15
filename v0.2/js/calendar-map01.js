@@ -1,11 +1,6 @@
 // Group we will append our markers to
-if (window.location.hash === "#cluster") {
-    // Set up cluster group
-    var markers = new L.MarkerClusterGroup();
-} else {
-    // Otherwise set up normal groupx`
-    var markers = new L.LayerGroup();
-}
+var markers = new L.MarkerClusterGroup();
+
 
 // Google Docs spreadsheet key
 var spreadsheet_key = '1YOzGYHQj53nxcBIK9goMbSIM8BdO881EtV5ZVu0l_rU';
@@ -14,16 +9,20 @@ var spreadsheet_key = '1YOzGYHQj53nxcBIK9goMbSIM8BdO881EtV5ZVu0l_rU';
 var lat_column = 'Latitude';
 var long_column = 'Longitude';
 
-// Marker options
-var radius = 8;
-// Regular fill
-var fill_color = "#F16456";
-var border_color = "#FFF";
-// Hover
-var fill_color_hover = "#FFF";
-var border_color_hover = "#333"
-
 var global_markers_data;
+
+// Creates a custom marker
+  var makerMarker = L.AwesomeMarkers.icon({
+	prefix: 'fa',
+    icon: 'users',
+    markerColor: 'red'
+  });
+
+  var makerMarker_hover = L.AwesomeMarkers.icon({
+   prefix: 'fa',
+	icon: 'users',
+	markerColor: 'darkred'
+  });
 
 // Function that creates our popup
 function generatePopup(content) {
@@ -63,14 +62,7 @@ function loadMarkersToMap(markers_data) {
         // radius_actual = Math.sqrt(current['total'] / 3.14) * 2.8;
 
         // Options for our circle marker
-        var layer_marker = L.circleMarker(marker_location, {
-            radius: radius,
-            fillColor: fill_color,
-            color: border_color,
-            weight: 1,
-            opacity: 1,
-            fillOpacity: 0.8
-        });
+        var layer_marker = L.marker(marker_location, {icon: makerMarker});
 
         // Generate popup
         layer_marker.bindPopup(generatePopup(current));
@@ -80,28 +72,12 @@ function loadMarkersToMap(markers_data) {
             // Must call separate popup(e) function to make sure right data is shown
             function mouseOver(e) {
                 var layer_marker = e.target;
-                layer_marker.setStyle({
-                    radius: radius + 1,
-                    fillColor: fill_color_hover,
-                    color: border_color_hover,
-                    weight: 2,
-                    opacity: 1,
-                    fillOpacity: 1
-                });
                 // layer_marker.openPopup();
             }
 
             // What happens when mouse leaves the marker
             function mouseOut(e) {
                 var layer_marker = e.target;
-                layer_marker.setStyle({
-                    radius: radius + 1,
-                    fillColor: fill_color,
-                    color: border_color,
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.8
-                });
                 // layer_marker.closePopup();
             }
 
