@@ -29,7 +29,6 @@ var global_markers_data;
 function generatePopup(content) {
     // Generate header
     var popup_header = "<h4>" + toTitleCase(content['Event Title']) + "</h4>"
-
     // Generate content
     var popup_content = '<table class="popup_table table">';
     popup_content += '<tr><td><strong>When:</strong></td>';

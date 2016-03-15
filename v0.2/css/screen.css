@@ -102,7 +102,7 @@ canvas {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
     /* IE6-9 */
 }
-.container-fluid h1, h2 {
+.container-fluid h1, h2, h3, h4 {
     padding: 5px;
     font-family: "Rubik", sans-serif;
 }
@@ -227,6 +227,34 @@ footer div {
     height: 6px;
     border-radius: 3px;
     margin-bottom: 60px;
+}
+
+.rounded-separator-h3-top {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 3px;
+    border-radius: 1px;
+}
+.rounded-separator-h3-bottom {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 3px;
+    border-radius: 1px;
+    margin-bottom: 20px;
+}
+
+.rounded-separator-h4-top {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 2px;
+    border-radius: 1px;
+}
+.rounded-separator-h4-bottom {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: 20px;
 }
 
 /* iPhone fix */
