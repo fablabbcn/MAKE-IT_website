@@ -279,7 +279,7 @@ footer div {
     margin-bottom: 20px;
 }
 .form-group .required {
-  border: 1px solid #EEAA56 !important;
+    border: 1px solid #EEAA56 !important;
 }
 .asterisk {
     color: #F16456;
@@ -292,24 +292,24 @@ footer div {
     font-weight: 400;
 }
 .form-group .input-group label {
-  font-weight: 500;
-  font-size: 90%;
-  margin: 0px auto !important;
+    font-weight: 500;
+    font-size: 90%;
+    margin: 0px auto !important;
 }
 .form-group label, .radio label {
-  font-weight: 600;
+    font-weight: 600;
 }
 .radio-mkit label {
-  font-weight: 600;
+    font-weight: 600;
 }
 .radio-mkit ul {
-  list-style-type: none;
-   margin: 0px auto;
-   margin-bottom: 20px;
-   margin-top: 20px;
-   padding: 0px auto !important;
-   list-style-position: inside;
-    padding-left:0;
+    list-style-type: none;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px auto !important;
+    list-style-position: inside;
+    padding-left: 0;
 }
 .radio-mkit ul li {
     font-size: 80%;
@@ -362,7 +362,19 @@ footer div {
     z-index: 8;
 }
 
+/* Leaflet custom style */
+
+.leaflet-popup-close-button, .leaflet-popup-close-button:hover {
+    text-decoration: none;
+    border: 0px solid #fff;
+}
+.leaflet-popup-content {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Responsive iFrame */
+
+
 /* From http://themeloom.com/2013/02/tips-embed-google-maps-and-calendars-in-a-responsive-wordpress-theme/ */
 
 .responsive-iframe-container {
@@ -372,10 +384,7 @@ footer div {
     height: 0;
     overflow: hidden;
 }
-
-.responsive-iframe-container iframe,
-.vresponsive-iframe-container object,
-.vresponsive-iframe-container embed {
+.responsive-iframe-container iframe, .vresponsive-iframe-container object, .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
     left: 0;
