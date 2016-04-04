@@ -28,6 +28,7 @@
     "leaflet-providers": "^1.1.7",
     "tabletop": "^1.4.3",
     "drmonty-leaflet-awesome-markers": "^2.0.2",
-    "leaflet.markercluster": "^0.4.0"
+    "leaflet.markercluster": "^0.4.0",
+    "pdfjs-dist": "^1.4.192"
   }
 }
