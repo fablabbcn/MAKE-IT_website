@@ -102,7 +102,7 @@ canvas {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
     /* IE6-9 */
 }
-.container-fluid h1, h2 {
+.container-fluid h1, h2, h3, h4 {
     padding: 5px;
     font-family: "Rubik", sans-serif;
 }
@@ -114,6 +114,11 @@ canvas {
 .container-fluid h2 {
     font-weight: 400;
     margin: 20px auto 20px auto;
+    text-align: center;
+}
+.container-fluid h3 {
+    font-weight: 200;
+    margin: 10px auto 10px auto;
     text-align: center;
 }
 .container-fluid p, .container-fluid ul, .container-fluid ol, .container-fluid table {
@@ -156,6 +161,13 @@ a img {
     text-decoration: none;
     border: 0 none;
     padding: 0px;
+}
+.download_button, .download_button a, .download_button a:hover {
+    border-bottom: 0px solid #fff !important;
+    background-color: #fff !important;
+}
+.glyphicon {
+    margin-right: 10px;
 }
 
 /* Fix image link problem in footer */
@@ -227,6 +239,19 @@ footer div {
     height: 6px;
     border-radius: 3px;
     margin-bottom: 60px;
+}
+.rounded-separator-h3-top {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 3px;
+    border-radius: 1px;
+}
+.rounded-separator-h3-bottom {
+    color: #EEAA56;
+    background-color: #EEAA56;
+    height: 3px;
+    border-radius: 1px;
+    margin-bottom: 40px;
 }
 
 /* iPhone fix */

@@ -69,6 +69,41 @@
                 ga('create', 'UA-74309661-1', 'auto');
                 ga('send', 'pageview');
             </script>
+            <script>
+                $(document).ready(function () {
+                    $("#read13").hide();
+                    $("#read21").hide();
+                    $("#close_button13").hide();
+                    $("#close_button21").hide();
+
+                    $("#read_button13").click(function () {
+                        var iframe = $("#read13");
+                        iframe.attr("src", iframe.data("src"));
+                        $("#read13").show();
+                        $("#close_button13").show();
+                    });
+                    $("#read_button21").click(function () {
+                        var iframe = $("#read21");
+                        iframe.attr("src", iframe.data("src"));
+                        $("#read21").show();
+                        $("#close_button21").show();
+                    });
+
+                    $("#close_button21").click(function () {
+                        var iframe = $("#read21");
+                        iframe.attr("src", iframe.data("src"));
+                        $("#read21").hide();
+                        $("#close_button21").hide();
+                    });
+                    $("#close_button13").click(function () {
+                        var iframe = $("#read13");
+                        iframe.attr("src", iframe.data("src"));
+                        $("#read13").hide();
+                        $("#close_button13").hide();
+                    });
+
+                });
+            </script>
         </head>
 
         <body class="" lang="en-US">
@@ -318,6 +353,66 @@
                         </tr>
                     </table>
                 </div>
+            </section>
+
+            <section>
+                <div class="rounded-separator-h2-top"></div>
+                <h2>Deliverables</h2>
+                <div class="rounded-separator-h2-bottom"></div>
+                <p>
+                    Lorem ipsum-..
+                </p>
+
+                <section>
+                    <div class="rounded-separator-h3-top"></div>
+                    <h3>D1.3</h3>
+                    <div class="rounded-separator-h3-bottom"></div>
+                    <p>
+                        Lorem ipsum-..
+                    </p>
+                    <p>
+                        <a class="download_button" href="data/MAKE-IT_D1.3.pdf" target="_blank">
+                            <button type="button" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+                                Download the .pdf file.</button>
+                        </a>
+                        <button class="btn btn-info" href="" id="read_button13">
+                            <span class="glyphicon glyphicon-book" aria-hidden="true"></span><span>Read it here online.</span>
+                        </button>
+                        <button class="btn btn-info" href="" id="close_button13">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span>Close the document viewer.</span>
+                        </button>
+                    </p>
+                    <p>
+                        <iframe id="read13" style="border: none; width: 100%; height: 800px;" src="viewers/viewer01.html"></iframe>
+                    </p>
+                </section>
+
+                <section>
+                    <div class="rounded-separator-h3-top"></div>
+                    <h3>D2.1</h3>
+                    <div class="rounded-separator-h3-bottom"></div>
+                    <p>
+                        Lorem ipsum-..
+                    </p>
+                    <p>
+                        <a class="download_button" href="data/MAKE-IT_D2.1.pdf" target="_blank">
+                            <button type="button" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+                                Download the .pdf file.</button>
+                        </a>
+                        <button class="btn btn-info" href="" id="read_button21">
+                            <span class="glyphicon glyphicon-book" aria-hidden="true"></span><span>Read it here online.</span>
+                        </button>
+                        <button class="btn btn-info" href="" id="close_button21">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span>Close the document viewer.</span>
+                        </button>
+                    </p>
+                    <p>
+                        <iframe id="read21" style="border: none; width: 100%; height: 800px;" src="viewers/viewer02.html"></iframe>
+                    </p>
+                </section>
+
             </section>
 
             <section>
