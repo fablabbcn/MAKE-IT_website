@@ -420,3 +420,10 @@ footer div {
     height: 100%;
     border: 0px solid #fff;
 }
+.download_button, .download_button a, .download_button a:hover {
+    border-bottom: 0px solid #fff !important;
+    background-color: #fff !important;
+}
+.glyphicon {
+    margin-right: 10px;
+}
